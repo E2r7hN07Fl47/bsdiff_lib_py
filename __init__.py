@@ -1,7 +1,7 @@
 import os
 import bz2
-from utils_bs import read_int_64
-from errors_bs import FileError, NotImplementedError
+from .utils_bs import read_int_64
+from .errors_bs import FileError, NotImplementedError
 
 def bsdiff(old_file, patched_file, patch_file):
     print("Not implemented yet")
